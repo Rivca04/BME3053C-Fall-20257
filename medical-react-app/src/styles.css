@@ -1,0 +1,16 @@
+:root{
+  --bg:#f6f8fb;
+  --card:#fff;
+  --muted:#6b7280;
+}
+body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial; margin:0; background:var(--bg);}
+.app header{padding:16px 24px; background:linear-gradient(90deg,#2563eb,#06b6d4); color:white}
+main{display:flex; gap:16px; padding:16px}
+aside{width:320px}
+.patient-list{display:flex; flex-direction:column; gap:8px}
+.patient-item{display:flex; align-items:center; justify-content:space-between; padding:8px; background:var(--card); border-radius:8px; box-shadow:0 1px 2px rgba(0,0,0,0.06)}
+.patient-item.selected{outline:2px solid #60a5fa}
+.patient-summary{cursor:pointer}
+.patient-details{flex:1; padding:16px; background:var(--card); border-radius:8px}
+.add-note{display:flex; gap:8px; margin-top:8px}
+button{cursor:pointer}
