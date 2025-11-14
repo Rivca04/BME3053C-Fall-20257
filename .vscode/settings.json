@@ -8,6 +8,7 @@
     },
     "python.analysis.autoImportCompletions": true,
     "python.defaultInterpreterPath": "/usr/bin/python3",
-    "python-envs.defaultEnvManager": "ms-python.python:venv",
-    "python-envs.pythonProjects": []
+    "Lua.diagnostics.globals": [
+        "love"
+    ]
 }

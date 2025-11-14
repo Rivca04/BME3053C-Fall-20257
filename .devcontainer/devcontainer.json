@@ -7,7 +7,7 @@
     6080
   ],
   "waitFor": "onCreateCommand",
-  // "postCreateCommand": "bash .devcontainer/setup.sh",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
   "customizations": {
     "codespaces": {
       "openFiles": []
